@@ -55,3 +55,45 @@
     border-top: 1px solid #00000062; /* Sets the color and thickness of the <hr> */
     margin-top: 50px;
 }
+
+
+/*....................................login...................................*/
+
+
+.login-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.h2-center{
+    text-align: center;
+    color: rgb(28, 25, 120);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: rgb(200, 200, 206);
+}
