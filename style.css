@@ -1,0 +1,57 @@
+.site-header {
+    background-color: rgb(28, 25, 120); 
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.site-title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.site-navigation ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.site-navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.site-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px; /* button grows horizontally */
+    background-color: rgb(10, 27, 181); /* Blue background for the links */
+    border-style: outset;
+    transition: background-color 0.3s ease; /* Smooth transition for the background color change */
+}
+
+.site-navigation ul li a:hover {
+    background-color: rgb(5, 118, 255); /* Lighter blue on hover */
+}
+
+
+.main-content {
+    text-align: center; /* This selector centers the content of the main area, making it visually balanced. */
+}
+
+.centered-image {
+    max-width: 100%; /* Ensures the image scales responsively with the browser window size. */
+    height: auto; /* Maintains the aspect ratio of the image as it scales. */
+}
+
+.footer-text, footer p  {
+    text-align: center;
+    margin-top: 20px; /* Adds vertical space above the footer content for better visual separation. */
+}
+
+.footer-divider {
+    width: 95%; /* Sets the width of the horizontal rule to 50% of its container */
+    margin: 50 auto; /* Centers the <hr> horizontally */
+    border-top: 1px solid #00000062; /* Sets the color and thickness of the <hr> */
+    margin-top: 50px;
+}
