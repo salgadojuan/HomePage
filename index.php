@@ -1,13 +1,19 @@
+
 <?php
-$title = "Index";
-include "includes/header.php";
-?>
-    <h1>Hello, world! <?php echo $title?> </h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+$title = "Home";
+include "includes/header.php";?>
+        
+        <nav class="site-navigation"> 
+            <ul>
+                <li><a href="login.php">Login</a></li> 
+            </ul>
+        </nav>
+    
+                <main class="main-content">
+                    <img src="images/loginCars.png" alt="Car Inventory" class="centered-image"> 
+                </main>
+             <hr class="footer-divider"> 
+   
+<?php require "includes/footer.php"; ?>
 
-   <a href="test.php">Test Page</a>
 
-
-    <?php  require "includes/footer.php"; ?>
